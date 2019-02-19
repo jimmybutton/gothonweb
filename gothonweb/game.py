@@ -54,7 +54,7 @@ escape_pod.add_paths({
     '*': the_end_loser
 })
 
-generic_death = Room("Death", "You died.")
+generic_death = Room("death", "You died.")
 
 the_bridge.add_paths({
     'throw the bomb': generic_death,
