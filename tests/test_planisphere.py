@@ -1,5 +1,5 @@
 import pytest
-from gothonweb.game import *
+from gothonweb.planisphere import *
 
 def test_room():
     gold = Room("GoldRoom",
@@ -28,6 +28,20 @@ def test_map():
     assert start.go('west') == west
     assert start.go('west').go('east') == start
     assert start.go('down').go('up') == start
+
+def test_load_room():
+    assert load_room("central_corridor") == central_corridor
+    with pytest.raises(ValueError):
+        load_room("outer_corridor")
+
+def test_name_room():
+    my_room = load_room("central_corridor")
+    assert name_room(my_room) == "central_corridor"
+    with pytest.raises(TypeError):
+        name_room("not_a_room")
+    start = Room("Start", "You can go west and down a hole.")
+    with pytest.raises(ValueError):
+        name_room(start)
 
 def test_gothon_game_map():
     start_room = load_room(START)
