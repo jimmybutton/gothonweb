@@ -21,18 +21,18 @@ python -m pytest
 
 ## The game
 ### Central corridor
-shoot!
-dodge!
-tell a joke
+- shoot!
+- dodge!
+- tell a joke
 
 ### Laser weapon armory
-0132
-*
+- 0132
+- *
 
 ### The bridge
-throw the bomb
-slowly place the bomb
+- throw the bomb
+- slowly place the bomb
 
 ### Escape pod
-2
-*
+- 2
+- *
