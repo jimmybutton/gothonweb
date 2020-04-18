@@ -27,7 +27,7 @@ python -m pytest
 
 ### Laser weapon armory
 - 0132
-- *
+- "*"
 
 ### The bridge
 - throw the bomb
@@ -35,4 +35,4 @@ python -m pytest
 
 ### Escape pod
 - 2
-- *
+- "*"
