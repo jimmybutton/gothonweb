@@ -1,7 +1,7 @@
 # Gothonweb
 A simple text based web game, from Zed Shaw's book "Learn Python the Hard Way".
 
-Screenshot
+![Screenshot](https://github.com/jimmybutton/gothonweb/blob/media/gothonweb.png?raw=true)
 
 ## Setup
 ### Install requirements
